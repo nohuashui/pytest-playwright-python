@@ -1,0 +1,26 @@
+fangkeruhui:
+  - title: 访客入会成功
+    des: 访客入会用例
+    cases:
+    - name: 打开会议主界面
+      method: goto
+      url: https://meeting-web.beta.101.com/
+    - name: 定位到所在iframe
+      method: frame_locator
+      selctor: //*[@id="root"]/div/div/div/div/div[1]/iframe
+#    - name: 输入会议号
+#      method: fill
+#      selctor: //*[@id="conferenceId"]
+#      value: '123456'
+#  - title: 访客入会成功111
+#    des: 访客入会用例
+#    cases:
+#      - name: 打开会议主界面
+#        method: goto
+#        url: https://www.baidu.com/
+#      - name: 输入
+#        method: fill
+#        selctor: //*[@id="kw"]
+#        value: '1234511116'
+
+
